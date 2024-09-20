@@ -29,6 +29,9 @@ import ffmpeg
 ohbot.reset()
 
 def main():
+    input("Press Enter to start")
     ohbot.move(ohbot.HEADNOD, 10)
     ohbot.wait(1)
+    ohbot.move(ohbot.HEADTURN, 1)
+    ohbot.move(ohbot.HEADNOD, 1)
 
